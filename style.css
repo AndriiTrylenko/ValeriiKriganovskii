@@ -1,0 +1,110 @@
+
+body {
+  
+    width: 100%;
+    background: #171717;
+ }
+ header {
+     background: #171717;
+     width: 100%;
+     overflow: hidden;
+     animation: scale 1.5s ease;
+     position: relative;
+     display: block;
+ }
+ .nav{
+ display:flex;
+ z-index: 1;
+ position: relative;
+ justify-content: space-between;
+ align-items: center;
+} 
+.nav{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    height: 80px;
+    
+    
+    background-color: #171717;
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+    }
+    
+.logo:hover {
+        
+        transform: rotate(50deg);
+            
+ }
+
+.burger{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    fill: #c70039;
+    margin-right: 15px;
+}
+/*----------- section main ---------*/
+.main{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+ .my_foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: flex-end;
+    height: 100%;
+
+ }
+.paragraph{
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+   
+
+   
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 700;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 65px;
+
+    }
+    
+
+.name{
+    color: #c70039;
+    
+}
+h2{
+    color: #c70039;
+    
+    text-align: center;
+}
+.name_secondline{
+    color: antiquewhite;
+}
+
+/* ------social contact--------- */
+.footer-list{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+
+}
+.social{
+    display: flex;    
+    fill: wheat;
+    list-style: none;
+    
+}
+
