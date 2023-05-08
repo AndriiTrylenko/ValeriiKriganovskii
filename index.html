@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    
      <header> 
         <ul class="nav">
         <li  ><svg class="logo"><use href="/foto/logo/1683231900.svg#Layer_1"></use></svg></li>
         <li><svg class="burger"><use href="/foto/icon/menu_24pxmenu.svg#icon" ></use></svg></li>
+        
     </ul>
     </header>
+
      <main class="main">
+        
         <ul class="paragraph">
         <h1 ><span class="name">Valeriy</span> <span class="secondname">Kriganovskii</span></h1>
         <h2> <span class="name_secondline">I`am</span> <span id="typed"></span> </h2>
@@ -26,11 +30,13 @@
     </main>
       <footer>
         <ul class="footer-list">
-            <li class="social"><svg><use href="/foto/icon/symbol-social.svg#instagram"></use></svg></li>
-            <li class="social"><svg><use href="/foto/icon/symbol-social.svg#facebook"></use></svg></li>
-            <li class="social"><svg><use href="/foto/icon/symbol-social.svg#twitter"></use></svg></li>
+            <li class="social"><svg><use href="/foto/icon/symbol-defs.svg#icon-instagram"></use></svg></li>
+            <li class="social"><svg><use href="/foto/icon/symbol-defs.svg#icon-mail2"></use></svg></li>
+            <li class="social"><svg><use href="/foto/icon/symbol-defs.svg#icon-phone"></use></svg></li>
+            <li class="social"><svg><use href="/foto/icon/symbol-defs.svg#icon-telegram"></use></svg></li>
         </ul> 
     </footer> 
+    <canvas id="rotation" width="1500" height="800"></canvas>
 <!-- Load library from the CDN -->
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
@@ -41,6 +47,7 @@
         typeSpeed: 50,
     });
 </script> 
+<script src="/index.js"></script>
 </body>
 
 </html>

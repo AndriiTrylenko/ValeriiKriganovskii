@@ -105,6 +105,19 @@ h2{
     display: flex;    
     fill: wheat;
     list-style: none;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 20px;
+
+}
+
+#rotation {
+   
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 5%;
+   
     
+   
 }
 
