@@ -1,0 +1,71 @@
+body {
+
+    width: 100%;
+    background: #171717;
+}
+
+header {
+    background: #171717;
+    width: 100%;
+    overflow: hidden;
+    animation: scale 1.5s ease;
+    position: relative;
+    display: block;
+}
+
+.nav {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    fill: #888888;
+
+
+
+    transition-property: background-color, transform;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.logo:hover {
+
+    transform: rotate(50deg);
+
+}
+
+.burger {
+    display: flex;
+    height: 45px;
+    width: 45px;
+    fill: #888888;
+    ;
+    margin-right: 15px;
+    background-color: unset;}
+
+    .list_menu{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        color: #888888;
+       
+    
+    }
+    .roster_menu{
+      padding: 10px;
+    font-size: 30px;
+    opacity: 60%;
+    
+   
+    }

@@ -48,6 +48,7 @@ body {
     width: 45px;
     fill: #888888;;
     margin-right: 15px;
+    background-color:unset;
 }
 /*----------- section main ---------*/
 .main{
@@ -120,6 +121,25 @@ h2{
 }
 
 
+.social__icon:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        box-shadow:
+                1px 1px #353535,
+                2px 2px #353535,
+                3px 3px #353535,
+                4px 4px #353535,
+                5px 5px #353535,
+                6px 6px #353535,
+                7px 7px #353535;
+            -webkit-transform: translateX(-7px);
+            transform: translateX(-7px);
+    cursor: pointer;
+}
+
+
+/* animation backgraund */
 
 #rotation {
     width: 100%;
@@ -131,4 +151,6 @@ h2{
     
    
 }
+
+
 
