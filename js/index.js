@@ -71,3 +71,37 @@ function init() {
     draw()
 };
 init();
+
+// // Слова для анімації
+// var words = ["портфоліо", "про мене", "ціна", "слово"];
+
+// // Функція для створення та анімації слів
+// function animateWords() {
+//   // Отримуємо контейнер для слів
+//   var container = document.createElement("div");
+//   container.style.position = "fixed";
+//   container.style.top = "50%";
+//   container.style.left = "50%";
+//   container.style.transform = "translate(-50%, -50%)";
+//   document.body.appendChild(container);
+
+//   // Додаємо слова до контейнера і анімуємо їх
+//   words.forEach(function(word) {
+//     var wordElement = document.createElement("span");
+//     wordElement.textContent = word;
+//     wordElement.style.display = "block";
+//     wordElement.style.opacity = "0";
+//     wordElement.style.transition = "opacity 2s, transform 2s";
+//     container.appendChild(wordElement);
+
+//     // Затримка перед початком анімації
+//     setTimeout(function() {
+//       // Анімація з'явлення слова
+//       wordElement.style.opacity = "1";
+//       wordElement.style.transform = "translate(-50%, -50%)";
+//     }, 1000);
+//   });
+// }
+
+// // Виклик функції після завантаження сторінки
+// window.addEventListener("load", animateWords);

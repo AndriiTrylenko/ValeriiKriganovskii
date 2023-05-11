@@ -63,9 +63,45 @@ header {
     
     }
     .roster_menu{
-      padding: 10px;
+      display: block;
+      text-align: center;
     font-size: 30px;
     opacity: 60%;
+    margin-bottom: 5px;
     
    
     }
+
+       
+    
+         .fadeInLeft {
+             animation-name: fadeInLeft;
+             animation-duration: 4s;
+         }
+    
+         @keyframes fadeInLeft {
+             from {
+                 opacity: 0;
+                 transform: translateX(-1000px);
+             }
+    
+             to {
+                 opacity: 1;
+                 transform: none;
+             }
+         }
+         .fadeInRight{
+            animation-name:fadeInRight;
+            animation-duration:4s;
+         }
+         @keyframes fadeInRight{
+            from {
+                    opacity: 0;
+                    transform: translateX(1000px);
+                }
+            
+                to {
+                    opacity: 1;
+                    transform: none;
+                }
+         }
