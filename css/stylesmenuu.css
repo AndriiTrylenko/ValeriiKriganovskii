@@ -1,17 +1,6 @@
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
+
 body {
 
     width: 100%;
@@ -175,17 +164,20 @@ header {
         .foto-in-contact{
 
         border-radius: 5%;
-        opacity: 55%;
+        opacity: 40%;
         
                   }
         .product-action{
             position: relative;
         }
+        .user-information{
+            display: flex;
+        }
         .icon-tumb{
             position: absolute;
             top:100px;
             left: 65px;
-            
+            list-style: none;
 
         }
         
@@ -194,5 +186,24 @@ header {
             width: 45px;
             height: 45px;
             padding-bottom: 40px;
-            fill:#c2b4b4
+            fill:#c2b4b4;
+        }
+        .title-icon{
+            color: #c2b4b4;
+            position: relative;
+            top: -20px;
+            left: 30px;
+            
+        }
+         .title-name-icon{
+         padding-top: 10px;
+            
+            
+            
+        } 
+
+        .hero{
+            display: flex;
+            column-gap: normal;
+            
         }
