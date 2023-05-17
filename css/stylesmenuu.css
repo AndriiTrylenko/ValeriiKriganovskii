@@ -1,3 +1,17 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
 body {
 
     width: 100%;
@@ -60,18 +74,19 @@ header {
         list-style: none;
         color: #888888;
        
+       
     
     }
+    
     .roster_menu{
       display: block;
       text-align: center;
     font-size: 30px;
     opacity: 60%;
     margin-bottom: 5px;
-    
-   
-    }
+     }
 
+   
        
     
          .fadeInLeft {
@@ -105,3 +120,79 @@ header {
                     transform: none;
                 }
          }
+
+         /* ----------Modal window---------- */
+
+
+         /* .header-contact{
+            position: fixed;
+         } */
+        .contact{
+            display: flex;
+
+        }
+         .contact-form{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+            
+         }
+         .personal-data{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width: 500px;
+            align-items: center;
+            position: relative;
+         }
+         .modal-label{
+            width: 50%;
+            padding: 10px;
+            margin: 14px;
+            border-radius: 8px;
+            background-color: #050505;
+         }
+
+         .modal-input{
+            background: #050505;
+            color: whitesmoke;
+           border-color: #050505;
+            border: #050505;
+            font-size: 18px;
+            outline: #050505;
+        }
+
+
+
+        .button_submit {
+                      width: 20px;
+                      height: 10px;
+                  }
+
+        /*----------- icon-contact------------- */
+      
+        .foto-in-contact{
+
+        border-radius: 5%;
+        opacity: 55%;
+        
+                  }
+        .product-action{
+            position: relative;
+        }
+        .icon-tumb{
+            position: absolute;
+            top:100px;
+            left: 65px;
+            
+
+        }
+        
+        .icon-contact {
+            display: flex;
+            width: 45px;
+            height: 45px;
+            padding-bottom: 40px;
+            fill:#c2b4b4
+        }
