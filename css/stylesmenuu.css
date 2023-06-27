@@ -18,13 +18,16 @@ body {
     background: #171717;
 }
 
-header {
+.header-contact{
     background: #171717;
     width: 100%;
     overflow: hidden;
     animation: scale 1.5s ease;
     position: relative;
     display: block;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding-left: 40px;
 }
 
 .nav {
@@ -188,7 +191,9 @@ header {
             transition: all ,4s ,ease;
         }
         .form_button_position{
-            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+
         }
         /*----------- icon-contact------------- */
       
