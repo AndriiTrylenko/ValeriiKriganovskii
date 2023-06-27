@@ -121,73 +121,85 @@ header {
                 }
          }
 
-         /* ----------Modal window---------- */
-
-
-         /* .header-contact{
-            position: fixed;
-         } */
-        .contact{
+         /* ----------Contact---------- */
+        .container{
             
             height: auto;
+            width: 90%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;}
+        /* Modal window*/
+        .modal_form{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding-right: 40px;
+        }
+        .form_element{
+            width: auto;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
-
         }
-         .contact-form{
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            
-            
-         }
-         .personal-data{
-            display: flex;
-            flex-wrap: wrap;
-            height: auto;
-            width: 500px;
-            align-items: center;
-            position: relative;
-         }
-         .modal-label{
-            width: 50%;
-            padding: 10px;
+        .element_modal{
+            width: 40%;
+            padding: 10px 20px;
             margin: 14px;
             border-radius: 8px;
-            background-color: #050505;
-         }
-
-         .modal-input{
+            outline: none;
             background: #050505;
+            border: none;
             color: whitesmoke;
-           border-color: #050505;
-            border: #050505;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: 18px;
-            outline: #050505;
+
         }
 
-
-
-        .button_submit {
-                      width: 20px;
-                      height: 10px;
-                  }
-
+        .text_area{
+            width: 84%;
+                padding: 10px 20px;
+                margin: 14px;
+                height: 150px;
+                border-radius: 8px;
+                outline: none;
+                background: #050505;
+                border: none;
+                color: whitesmoke;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 18px;
+            resize: none;
+        }
+        .form_button{
+            padding: 8px 24px;
+            width: 20%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            color: whitesmoke;
+            background: #bb0035;
+            opacity: 8;
+            margin: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            transition: all ,4s ,ease;
+        }
+        .form_button_position{
+            margin-left: 50px;
+        }
         /*----------- icon-contact------------- */
       
     .contact-info{
-       width: 100%;
+       width: 40%;
        height: 500px;
     
-       align-items: center;
-       justify-content: center;
+     
         background-image: url(../foto/contact-back.jpg);
-        background-position:centr;
+        background-size: cover;
         border-radius: 16px;
-        position: relative;
-        overflow: hidden;
         
     }
 

@@ -7,7 +7,7 @@
     <title>CONTACT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="./css/stylesmenuu.css">
 </head>
 <body>
@@ -22,29 +22,30 @@
     
         </ul>
     </header>
-    <main class="contact">
-        <div class="contact-form">
-<form class="personal-data">
-    
-      <label for="name" class="modal-label">
-        <input class="modal-input" type="text" name="user-name"  placeholder="Ім'я"/>
-    </label>
-    <label class="modal-label">
-        <input class="modal-input" type="text" name="second-usre-name" placeholder="Прізвище">
-    </label>
-    
-    <label  class="modal-label">
-        <input class="modal-input" type="email" name="email" placeholder="Пошта">
-    </label>
-    <label class="modal-label">
-        <input class="modal-input" type="tel" name="tel" placeholder="Номер телефону">
-    </label>
-   </div>
-    <label for="">
-        <textarea name="massage" id="" cols="30" rows="10" placeholder="Залиште свій коментар"></textarea>
-    </label>
+    <main class="container">
+        <form action="" class="modal_form">
+            <div class="form_element">
+            <label  for="name"></label>
+                <input class="element_modal" type="text" id="name" placeholder="Ім'я" >
+            <label  for="lastname"></label>
+                <input class="element_modal" type="text" id="lastname" placeholder="Прізвище">
+            </div>
+            <div class="form_element">
+                <label for="tel"></label>
+                <input class="element_modal" type="tel" id="tel" placeholder="Телефон">
+                <label for="email"></label>
+                <input class="element_modal" type="email" id="email" placeholder="Пошта">
+            </div>
+            <div class="form_element">
+            <label   for="feadback"></label>
+            <textarea class="text_area" name="feadback" id="feadback" rows="10" placeholder="Залиште свої побажання,або задайте питання" ></textarea>
+                </div>
+                <label  for="button" ></label>
+                <input class="form_button" type="submit" id="button" placeholder="Відправити">
+                
+            </form>
+      
 
-    <button class="button_submit" type="submit">Submit</button>
     <div class="contact-info">
         <p class="contact-me">Контактна інформація</p>
         <div class="contact-info-content">
@@ -87,7 +88,7 @@
 
     </main>
     <footer>
-  
+
     </footer>
 </body>
 </html>
