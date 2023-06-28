@@ -15,11 +15,11 @@ li {
 body {
 
     width: 100%;
-    background: #171717;
+    background: #0f0f0f;
 }
 
 .header-contact{
-    background: #171717;
+    background: #0f0f0f;
     width: 100%;
     overflow: hidden;
     animation: scale 1.5s ease;
@@ -141,6 +141,15 @@ body {
             width: 60%;
             padding-right: 40px;
         }
+        .form-header{
+            display: flex;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 400;
+            color: whitesmoke;
+            padding: 28px;
+
+        }
         .form_element{
             width: auto;
             display: flex;
@@ -199,12 +208,11 @@ body {
       
     .contact-info{
        width: 40%;
-       height: 500px;
-    
-     
+       
         background-image: url(../foto/contact-back.jpg);
         background-size: cover;
         border-radius: 16px;
+        
         
     }
 
@@ -217,7 +225,7 @@ body {
         font-weight: 400;
         color: whitesmoke;
         padding-left: 25%;
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
         .icon-contact-size{
@@ -227,9 +235,15 @@ body {
             padding-top: 40px;
             color: #252525;
         }
+        .icon-contact-size:first-child{
+            padding-top: 10px;
+        }
+        .icon-contact-size:last-child{
+            padding-bottom: 40px;
+        }
 .icon-contact-info{
     width: 60px;
     height: 50px;
     padding-right: 15PX;
-    fill: #252525;
+    fill: #ffffff;
 }
