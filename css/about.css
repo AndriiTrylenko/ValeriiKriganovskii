@@ -14,7 +14,7 @@ li {
 
 body {
 
-    width: 100%;
+   
     background: #171717;
 }
 
@@ -37,6 +37,7 @@ header {
     position: relative;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav {
@@ -64,6 +65,7 @@ header {
 
 }
 
+
 .burger {
     display: flex;
     height: 45px;
@@ -81,26 +83,107 @@ header {
     color: #888888;
 }
 
-
-.abouttext{
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.abouttext {
+    display: flex;
     padding-bottom: 20px;
     text-align: center;
+    flex-direction: column;
 }
-.abouteme{
+.color-title{
+   
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: releway;
+    font-weight: 900;
+}
+.color-title-second{
+    color: #C70039;
+        font-size: 45px;
+        font-family: releway;
+        font-weight: 900;
+}
+.header-caption{
+ 
+    align-items: center;
+    font-size: 20px;
+    font-family: releway;
+    padding-top: 15px;
+    color: #C70039;
+    font-weight: 400;
+}
+.header-caption-second{
+    color: whitesmoke;
+}
+
+.aboute-main{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
     list-style: none;
 }
 .text{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 25px;
     font-size: 25px;
+    font-weight: 200;
     color: #888888;
 }
 
+.about-foto-main{
+width: 550px;
+height: auto;
+padding: 30px;
+padding-top: 10px;
+border-radius: 40px;
+
+}
+
 .aboutphoto{
-    padding: 35px;
-    width: auto;
-    height: 500px;
+border-radius: 40px;
+height: 380px;
+}
+
+.listabout{
+    display: flex;
+}
+/* ----------servis---------- */
+.services{
+display: flex;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.service-heading{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
+    padding: 10px;
+    padding-bottom: 30px;
+    font-weight: 900;
+    
+}
+.service-heading-color{
+    color: #C70039;
+}
+li{
+    list-style: none;
+}
+.section-flex{
+    display: flex;
+}
+.myservices-list{
+    height: 380px;
+    width: 270px;
+    background-color: #888888;
 }
